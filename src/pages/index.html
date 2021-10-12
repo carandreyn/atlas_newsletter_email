@@ -1,0 +1,187 @@
+---
+layout: index-layout
+subject: My Email Templates
+---
+<container class="header-container" style="width: 475px;">
+  <row class="view-in-browser">
+    <columns>
+      <center>
+        <span>Email not displaying correctly? <a>View in your browser</a>.</span>
+      </center>
+    </columns>
+  </row>
+  <row class="header-top">
+    <columns small="6" large="6">
+      <img class="logo" src="https://i.imgur.com/aQwdXGA.png" alt="logo">
+    </columns>
+    <columns small="6" large="6">
+      <h3>August 30, 2020</h3>
+    </columns>
+  </row>
+</container>
+
+<container class="header-article">
+  <row>
+    <a href="https://www.atlasobscura.com/articles/what-type-of-shell-is-this">
+      <img src="https://i.imgur.com/MvmBsV4.jpg" alt="header-image">
+    </a>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/what-type-of-shell-is-this">Decoding Shells</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>We asked invertebrate experts for advice on how to suss out the shells you find on the beach—and if you're sold on beachcombing, how best to set yourself up for successful sleuthing.</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/what-type-of-shell-is-this">Read More &#8594;</a>
+    </columns>
+  </row>
+</container>
+
+<container class="article">
+  <row>
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/what-do-we-know-about-space">
+        <center>
+          <img src="https://i.imgur.com/dyOQrka.jpg" alt="header image">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/what-do-we-know-about-space">A Map of Space Mysteries</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>In 1958, the American Oil Company released a pictorial map outlining some of the most bedeviling space-related puzzles of the age.</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/what-do-we-know-about-space">Read More &#8594;</a>
+    </columns>
+  </row>
+</container>
+
+{{#each articles.article}}
+<container class="article-style-two">
+  <row>
+    <columns>
+      <a href="{{this.link}}">
+        <center>
+          <img src="{{this.image_url}}" alt="article image">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="sub-title">
+    <columns>
+      <p>{{this.sub_title}}</p>
+    </columns>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="{{this.link}}">{{this.title}}</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>{{this.paragraph}}</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="{{this.link}}">Read More &#8594;</a>
+    </columns>
+  </row>
+</container>
+{{/each}}
+
+<container class="footer-top">
+  <row class="footer-images">
+    <columns small="12" large="6">
+      <a href="https://www.atlasobscura.com/join?cause=p_add&next=%2Fplaces%2Fnew">
+        <center>
+          <img src="https://i.imgur.com/xyUm0rD.png" alt="add a place">
+        </center>
+      </a>
+    </columns>
+    <columns small="12" large="6">
+      <a href="">
+        <center>
+          <img src="https://i.imgur.com/0kN1gOg.png" alt="subscribe">
+        </center>
+      </a>
+    </columns>
+  </row>
+</container>
+<container class="footer-middle">
+  <row class="footer-motto">
+    <columns>
+      <a href="https://www.atlasobscura.com/">
+        <img src="https://i.imgur.com/KEFH7bE.png" alt="definitive guide to world's hidden wonders">
+      </a>
+    </columns>
+  </row>
+  <row class="footer-links">
+    <columns small="3" large="3">
+      <a href="https://www.facebook.com/atlasobscura/">
+        <img src="https://i.imgur.com/cEGDYiL.png" alt="facebook">
+      </a>
+    </columns>
+    <columns small="3" large="3">
+      <a href="https://twitter.com/atlasobscura">
+        <img src="https://i.imgur.com/c4k7TQ2.png" alt="twitter">
+      </a>
+    </columns>
+    <columns small="3" large="3">
+      <a href="https://www.instagram.com/atlasobscura/">
+        <img src="https://i.imgur.com/gCyHYzE.png" alt="instagram">
+      </a>
+    </columns>
+    <columns small="3" large="3">
+      <a href="https://www.youtube.com/user/atlasobscura">
+        <img src="https://i.imgur.com/t2MNHXC.png" alt="youtube">
+      </a>
+    </columns>
+  </row>
+</container>
+
+<container class="footer-bottom">
+  <row>
+    <columns small="3" large="3">
+      <center>
+        <a href="https://www.atlasobscura.com/">AtlasObscura.com</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+        <a href="#">View in Browser</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+      <a href="https://atlasobscura.us1.list-manage.com/unsubscribe/post">Unsubscribe</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+        <a href="https://www.atlasobscura.com/newsletters">See All Newsletters</a>
+      </center>
+    </columns>
+  </row>
+  <row class="address">
+    <columns>
+      <center>
+        <span>61 Greenpoint Ave #622, Brooklyn, NY 11222</span>
+      </center>
+    </columns>
+  </row>
+</container>

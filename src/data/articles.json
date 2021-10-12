@@ -1,0 +1,46 @@
+{
+    "article": [
+        {
+            "title": "Pep's Maison",
+            "sub_title": "Paris, France",
+            "image_url": "https://i.imgur.com/DlLoUAZ.jpg",
+            "paragraph": "One of the last umbrella repair shops in Paris upholds the nostalgic art of making these rainy weather companions.",
+            "link": "https://www.atlasobscura.com/places/peps"
+        },
+        {
+            "title": "Futurist Service Station",
+            "sub_title": "ASMARA, ERITREA",
+            "image_url": "https://i.imgur.com/ZLEPwFR.jpg",
+            "paragraph": "Designed by the Italian architect Giuseppe Pettazzi, this Art Deco gas station is widely understood as a nod to Italy’s fascist history.",
+            "link": "https://www.atlasobscura.com/places/fiat-tagliero-service-station-asmara-eritrea"
+        },
+        {
+            "title": "Great Auk Sculpture",
+            "sub_title": "FOGO ISLAND, NEWFOUNDLAND AND LABRADOR",
+            "image_url": "https://i.imgur.com/Gibs38N.jpg",
+            "paragraph": "This memorial stands in honor of a giant seabird that was hunted to extinction.",
+            "link": "https://www.atlasobscura.com/places/great-auk-sculpture"
+        },
+        {
+            "title": "Whitstable Oyster Festival",
+            "sub_title": "Food & Drink",
+            "image_url": "https://i.imgur.com/xNGYVMx.jpg",
+            "paragraph": "Every July, a seaside town in England pays homage to its local mollusks with eating contests, a marine-themed parade, and plenty of fresh seafood.",
+            "link": "https://www.atlasobscura.com/foods/whitstable-oyster-festival"
+        },
+        {
+            "title": "Vietnam's 'Hands of God'",
+            "sub_title": "From our Friends at Popular Mechanics",
+            "image_url": "https://i.imgur.com/lJspGeL.jpg",
+            "paragraph": "Oversized and weathered, the concrete hands that appear to be holding up Vietnam's new Golden Bridge are a stunning sight to behold.",
+            "link": "https://www.popularmechanics.com/technology/infrastructure/a22615994/cau-vang-golden-bridge-hands-of-god-vietnam/?dom=fb_ao&src=social&mag=pop"
+        },
+        {
+            "title": "Hometown Stories",
+            "sub_title": "Sponsored by TravelNevada",
+            "image_url": "https://i.imgur.com/WN7SeAE.jpg",
+            "paragraph": "We wanted to hear about the Nevada history that you can’t find online or in books, so we turned to some of the folks behind the state’s most legendary institutions and asked them to share their stories with us.",
+            "link": "https://www.atlasobscura.com/articles/nevada-insiders-hometown-stories"
+        }
+    ]
+}
